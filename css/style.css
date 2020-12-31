@@ -69,17 +69,17 @@ body{
 .twitter-share-button{
   background-color: #494BF5;
   text-decoration: none;
-  padding: 1em 2em;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
   color: #fff;
   border-radius: 2em;
   cursor: pointer;
+  
 }
 
-.benifit-list>.twitter-share-button{
+.benifit-list>div{
   display: flex;
-  padding: 0.5em 1em;
-  margin: auto;
-  font-size: 1.3rem;
+  justify-content: center;
 }
 
 /* container */
@@ -143,8 +143,6 @@ body{
   font-size: 1.2rem;
 }
 
-
-
 /* prizes */
 .prizes, .faqs, .benifits{
   max-width: 90%;
@@ -207,7 +205,8 @@ footer{
 footer>h3{
   color: #fff;
   font-size: 1.5rem;
-  margin-bottom: 0.9rem;
+  margin-bottom: 0.5em;
+  margin-top: 0.5rem;
 }
 
 .social-links{
