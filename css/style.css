@@ -63,6 +63,23 @@ body{
 .secondary-heading-txt{
     font-size: x-large;
     padding-top: 1rem;
+    margin-bottom: 1em;
+}
+
+.twitter-share-button{
+  background-color: #494BF5;
+  text-decoration: none;
+  padding: 1em 2em;
+  color: #fff;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.benifit-list>.twitter-share-button{
+  display: flex;
+  padding: 0.5em 1em;
+  margin: auto;
+  font-size: 1.3rem;
 }
 
 /* container */
